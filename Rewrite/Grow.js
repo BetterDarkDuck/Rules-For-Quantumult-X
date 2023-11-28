@@ -56,7 +56,7 @@ var note = {
       }
     }
   }
-}
+};
 
-console.log("Grow installed successfully ")
+console.log("Grow installed successfully ");
 $done({body: JSON.stringify(note)});
