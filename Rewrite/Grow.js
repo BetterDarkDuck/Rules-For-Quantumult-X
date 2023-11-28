@@ -11,7 +11,7 @@
 
 [rewrite_local]
 # > Grow解锁永久会员
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/\$RCAnonymousID%3A\w{32})$ url script-response-body https://raw.githubusercontent.com/BetterDarkDuck/Rules-For-Quantumult-X/master/Rewrite/Grow.js
+^https?:\/\/api\.revenuecat\.com\/v1\/subscribers\/\$RCAnonymousID%3A3c15b483f9ca4f46bd483cf946901185 $ url script-response-body https://raw.githubusercontent.com/BetterDarkDuck/Rules-For-Quantumult-X/master/Rewrite/Grow.js
 
 [mitm] 
 hostname = api.revenuecat.com
