@@ -17,6 +17,7 @@
 hostname = api.revenuecat.com
 
 *******************************/
+console.log("Grow installed successfully ");
 
 var note = {
   "request_date": "2023-11-28T07:09:38Z",
@@ -56,7 +57,6 @@ var note = {
       }
     }
   }
-};
+}
 
-console.log("Grow installed successfully ");
 $done({body: JSON.stringify(note)});
