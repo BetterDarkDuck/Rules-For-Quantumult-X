@@ -57,3 +57,4 @@ var note = {
     }
   }
 }
+$done({body: JSON.stringify(note)});
